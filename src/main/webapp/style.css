@@ -1,0 +1,115 @@
+.html{
+    box-sizing: border-box;
+}
+.modal{
+    top: 50px!important;
+    left: 16% !important;
+}
+.modal-dialog{
+    min-width: 600px !important;
+}
+.close{
+    background-color: white !important;
+    opacity: 1 !important;
+    border-radius: 0 !important;
+    padding: 1% !important;
+    margin: 0 -0.5rem -1rem auto !important;
+    color:red;
+}
+.modal-header{
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    padding-bottom: 7px !important;
+    padding-right: 8px !important;
+    
+}
+.modal-content{
+    background-color: rgba(255, 0, 0, 0) !important;
+    border: none !important;
+}
+.modal-body{
+    background-color: white !important;
+    
+}
+.modal-body p{
+    font-size: 80% !important;
+}
+.modal-body h2{
+    font-size: 120% !important;
+    color: red !important;
+    padding-bottom: 1% !important;
+}
+.modal-footer{
+    background-color: white !important;
+    justify-content: space-between !important;
+    border-top:none !important;
+}
+.modal-title{
+    display: none !important;
+    
+}
+.platAntigua{
+    background-color:  rgba(255, 0, 0, 0) !important;
+    color: red !important;
+    border: none !important;
+    font-size: 80% !important;
+    width: 35% !important;
+    padding: 0 !important;
+}
+.platNueva{
+    background-color: red !important;
+    color: white !important;
+    border: none !important;
+    padding-top: 2.5% !important;
+    padding-bottom: 2.5% !important;
+    border-radius: 30px !important;
+    font-size: 80% !important;
+    width: 40% !important;
+    text-align: center !important;
+}
+@media screen and (max-width:900px){
+    .modal{
+        top: 30px!important;
+        left: 5% !important;
+    }
+    .modal-dialog{
+        min-width: 300px !important;
+        width: 60% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+@media screen and (max-width:340px){
+    .modal{
+        top: 30px!important;
+        left: 5% !important;
+    }
+    .modal-dialog{
+        min-width: 200px !important;
+        width: 60% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+@media screen and (max-height:430px){
+    .modal{
+        top: 0px!important;
+    }
+    .modal-dialog{
+        min-width: 200px !important;
+        width: 60% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+@media screen and (max-height:380px){
+    .modal{
+        top: -30px!important;
+    }
+    .modal-dialog{
+        min-width: 200px !important;
+        width: 60% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
